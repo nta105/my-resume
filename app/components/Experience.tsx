@@ -8,10 +8,10 @@ export default function Experience() {
           <p className="text-lg text-gray-600 dark:text-gray-300">Technician</p>
           <p className="text-gray-500">July 2022 – July 2023 • Sunnyvale, CA</p>
           <div className="mt-4 space-y-2">
-            <p>• Assembled components per Manufacturing Procedure Instructions, ensuring precision and compliance.</p>
-            <p>• Conducted functional tests using software, escalating issues for quick resolution.</p>
-            <p>• Collaborated with software engineers to optimize manufacturing processes and reliability.</p>
-            <p>• Gained expertise in medical device manufacturing and operational protocols.</p>
+            <p>• Assembled complex components following Manufacturing Procedure Instructions (MPI) with precision and compliance.</p>
+            <p>• Conducted functional tests using specialized software, promptly escalating any technical issues for resolution.</p>
+            <p>• Collaborated with software engineers to enhance manufacturing processes and reliability.</p>
+            <p>• Gained experience in medical device production, quality control, and operational protocols.</p>
           </div>
         </div>
       </div>

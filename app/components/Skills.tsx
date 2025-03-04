@@ -6,20 +6,22 @@ export default function Skills() {
         <div className="space-y-6">
           <div>
             <h3 className="text-xl font-semibold mb-2">Programming Languages</h3>
-            <p className="text-gray-700 dark:text-gray-300">Java, Python, C++, HTML, CSS, JavaScript</p>
+            <p className="text-gray-700 dark:text-gray-300">Java, Python, C++, C, HTML/CSS, JavaScript, SQL, Typescript, Kotlin</p>
           </div>
           
           <div>
-            <h3 className="text-xl font-semibold mb-2">Tools & Technologies</h3>
-            <p className="text-gray-700 dark:text-gray-300">Git, Github, Eclipse, Visual Studio Code</p>
+            <h3 className="text-xl font-semibold mb-2">Tools & Frameworks</h3>
+            <p className="text-gray-700 dark:text-gray-300">Git, GitHub, Next.js, Firebase, Tailwind CSS, Tkinter</p>
           </div>
-          
+
+          <div>
+            <h3 className="text-xl font-semibold mb-2">Technologies</h3>
+            <p className="text-gray-700 dark:text-gray-300">Linux, Android Studio, Visual Studio Code, Eclipse</p>
+          </div>
+
           <div>
             <h3 className="text-xl font-semibold mb-2">Soft Skills</h3>
-            <ul className="text-gray-700 dark:text-gray-300 space-y-1">
-              <li>• Strong analytical and problem-solving abilities</li>
-              <li>• Effective teamwork and communication skills</li>
-            </ul>
+            <p className="text-gray-700 dark:text-gray-300">Problem-solving, Team Collaboration, Effective Communication, Critical Thinking</p>
           </div>
         </div>
       </div>
