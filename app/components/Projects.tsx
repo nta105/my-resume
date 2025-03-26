@@ -26,7 +26,7 @@ export default function Projects() {
           <p className="text-gray-500">Next.js, Tailwind CSS, Firebase, Vercel • Fall 2024 (<a href="https://youtube-transcript-analyser.vercel.app/" className="text-blue-500 hover:underline">https://youtube-transcript-analyser.vercel.app/</a>)</p>
           <div className="mt-2 space-y-2">
             <p>• Built a web application that allows users to input a YouTube link and receive AI-generated analysis of the video content.</p>
-            <p>• Integrated an AI-powered chatbot that enables users to ask questions about the video's content.</p>
+            <p>• Integrated an AI-powered chatbot that enables users to ask questions about the video content.</p>
             <p>• Implemented user authentication with Firebase, allowing users to save, edit, update, and delete their analyses.</p>
             <p>• Designed a responsive and intuitive UI using Tailwind CSS and deployed the platform on Vercel for seamless access.</p>
           </div>
