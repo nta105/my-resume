@@ -5,28 +5,30 @@ export default function Projects() {
       <div className="border-l-4 border-blue-500 pl-4 space-y-8">
         <div>
           <h3 className="text-xl font-semibold">MY RESUME WEBSITE</h3>
-          <p className="text-gray-500">Next.js, Tailwind CSS, Vercel • 2024</p>
+          <p className="text-gray-500">Next.js, Tailwind CSS, Vercel • 2024  (<a href="https://my-resume-two-alpha.vercel.app/" className="text-blue-500 hover:underline">https://my-resume-two-alpha.vercel.app/</a>)</p>
           <div className="mt-2 space-y-2">
             <p>• Designed and deployed a responsive online resume to showcase professional experience.</p>
-            <p>• Hosted on Vercel for seamless accessibility  (<a href="https://my-resume-two-alpha.vercel.app/" className="text-blue-500 hover:underline">https://my-resume-two-alpha.vercel.app/</a>).</p>
+            <p>• Hosted on Vercel for seamless accessibility.</p>
           </div>
         </div>
 
         <div>
           <h3 className="text-xl font-semibold">BIO ABOUT MY SIDE JOB</h3>
-          <p className="text-gray-500">HTML, CSS, JavaScript, Github Pages • 2024</p>
+          <p className="text-gray-500">HTML, CSS, JavaScript, Github Pages • 2024 (<a href="https://nta105.github.io/" className="text-blue-500 hover:underline">https://nta105.github.io/</a>)</p>
           <div className="mt-2 space-y-2">
             <p>• Created a personal website highlighting guitar lessons and performances.</p>
-            <p>• Deployed using GitHub Pages. (<a href="https://nta105.github.io/" className="text-blue-500 hover:underline">https://nta105.github.io/</a>).</p>
+            <p>• Deployed using GitHub Pages.</p>
           </div>
         </div>
 
         <div>
-          <h3 className="text-xl font-semibold">FERRY SIMULATION</h3>
-          <p className="text-gray-500">Python, Semaphores • Fall 2024</p>
+          <h3 className="text-xl font-semibold">YOUTUBE TRANSCRIPT ANALYSER </h3>
+          <p className="text-gray-500">Next.js, Tailwind CSS, Firebase, Vercel • Fall 2024 (<a href="https://youtube-transcript-analyser.vercel.app/" className="text-blue-500 hover:underline">https://youtube-transcript-analyser.vercel.app/</a>)</p>
           <div className="mt-2 space-y-2">
-            <p>• Designed and implemented a multi-threaded ferry system to optimize car transportation between an island and the mainland.</p>
-            <p>• Utilized semaphores and concurrency to ensure synchronization and efficiency in real-world ferry scheduling.</p>
+            <p>• Built a web application that allows users to input a YouTube link and receive AI-generated analysis of the video content.</p>
+            <p>• Integrated an AI-powered chatbot that enables users to ask questions about the video's content.</p>
+            <p>• Implemented user authentication with Firebase, allowing users to save, edit, update, and delete their analyses.</p>
+            <p>• Designed a responsive and intuitive UI using Tailwind CSS and deployed the platform on Vercel for seamless access.</p>
           </div>
         </div>
 
