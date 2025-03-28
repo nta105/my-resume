@@ -10,7 +10,7 @@ export default function Projects() {
             <h4 className="text-lg font-medium">AI-Powered Video Content Analyser</h4>
             <p className="text-gray-500 mb-2">
               <a href="https://youtube-content-analyser.vercel.app/" className="text-blue-500 hover:underline">
-                https://youtube-content-analyser.vercel.app/
+              https://chat-with-youtubevideo.vercel.app/
               </a>
             </p>
             <div className="mt-2 space-y-2">
