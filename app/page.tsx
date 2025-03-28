@@ -1,27 +1,32 @@
 import Header from '@/app/components/Header'
 import Objective from '@/app/components/Objective'
 import Education from '@/app/components/Education'
-import Skills from '@/app/components/Skills'
 import Experience from '@/app/components/Experience'
 import Projects from '@/app/components/Projects'
-import Activities from '@/app/components/Activities'
+import Skills from '@/app/components/Skills'
+import SoftSkills from '@/app/components/SoftSkills'
+
 
 export default function Home() {
   return (
-    <div className="min-h-screen relative">
-      <div className="relative pt-16">
-        <div className="max-w-4xl mx-auto bg-white/90 dark:bg-gray-800/95 shadow-xl rounded-lg overflow-hidden backdrop-blur-sm">
-          <Header />
-          <main className="p-8 space-y-12">
-            <div id="objective" className="scroll-mt-20"><Objective /></div>
-            <div id="education" className="scroll-mt-20"><Education /></div>
-            <div id="skills" className="scroll-mt-20"><Skills /></div>
-            <div id="experience" className="scroll-mt-20"><Experience /></div>
-            <div id="projects" className="scroll-mt-20"><Projects /></div>
-            <div id="activities" className="scroll-mt-20"><Activities /></div>
-          </main>
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 relative">
+      {/* Background image with opacity */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center opacity-5 dark:opacity-3 z-0" 
+        style={{ backgroundImage: 'url("/background.avif")' }}
+      ></div>
+      
+      <main className="max-w-4xl mx-auto shadow-lg relative z-10">
+        <Header />
+        <div className="px-8 py-12 bg-white dark:bg-gray-800">
+          <Objective />
+          <Education />
+          <Projects />
+          <Experience />
+          <Skills />
+          <SoftSkills />
         </div>
-      </div>
+      </main>
     </div>
   )
 }
